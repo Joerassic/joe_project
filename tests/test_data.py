@@ -5,7 +5,7 @@ from tests.__init__ import _PATH_DATA
 import torch
 
 # if data is not there
-@pytest.mark.skipif(not os.path.exists("joe_project/data"), reason="Data files not found")
+@pytest.mark.skipif(not os.path.exists(_PATH_DATA), reason="Data files not found")
 
 
 def test_data():
