@@ -1,4 +1,4 @@
-from joe_project.model import S1model
+from src.joe_project.model import S1model
 import pytest
 import torch
 
