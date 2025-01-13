@@ -1,0 +1,37 @@
+{
+  "os":  "macOS-14.6-arm64-arm-64bit",
+  "python":  "CPython 3.11.11",
+  "startedAt":  "2025-01-09T12:39:21.373164Z",
+  "program":  "/Users/Johanne/Desktop/UNI/Machine Learning Operations/S4 - Debugging, Profiling and Logging/M14/train.py",
+  "email":  "johanne.cornelius@mac.com",
+  "root":  "/Users/Johanne/Desktop/UNI/Machine Learning Operations/S2 - Organization and Version Control/M6/joe_project",
+  "host":  "MacBook-Air",
+  "executable":  "/opt/anaconda3/envs/mlops_env/bin/python",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "208970731520"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "494384795648",
+      "used":  "208970731520"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  },
+  "apple":  {
+    "name":  "Apple M3",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  10,
+    "memoryGb":  16,
+    "ramTotalBytes":  "17179869184"
+  }
+}

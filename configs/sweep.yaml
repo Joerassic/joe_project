@@ -1,0 +1,18 @@
+program: train.py
+name: sweepdemo
+project: corrupt_mnist  # change this
+entity: johanne-cornelius-technical-university-of-denmark  # change this
+method: bayes  # Add this section (choose "grid", "random", or "bayes")
+metric:
+    goal: minimize
+    name: validation_loss
+parameters:
+    learning_rate:
+        min: 0.0001
+        max: 0.1
+        distribution: log_uniform
+    batch_size:
+        values: [16, 32, 64]
+    epochs:
+        values: [5, 10, 15]
+run_cap: 10
