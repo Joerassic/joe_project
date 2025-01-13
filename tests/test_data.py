@@ -1,7 +1,7 @@
 from src.joe_project.data import corrupt_mnist
 import pytest
 import os.path
-from tests import _PATH_DATA
+from tests.__init__ import _PATH_DATA
 import torch
 
 # if data is not there
