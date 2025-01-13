@@ -1,4 +1,4 @@
-from data import corrupt_mnist
+from src.joe_project.data import corrupt_mnist
 import pytest
 import os.path
 from tests import _PATH_DATA
