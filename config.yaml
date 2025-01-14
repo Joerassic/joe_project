@@ -4,4 +4,4 @@ workerPoolSpecs:
         machineType: n1-highmem-2
     replicaCount: 1
     containerSpec:
-        imageUri: gcr.io/dtumlops-447712/train:latest
+        imageUri: gcr.io/dtumlops-447712/joecloud-image1
